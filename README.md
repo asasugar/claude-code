@@ -1,9 +1,22 @@
-## 快速开始-带宠物功能
+# 快速开始
 
+## 依赖安装
 ```bash
 bun install       # 安装依赖（需要 Bun ≥ 1.3.5、Node.js ≥ 24）
 bun run dev       # 启用CLI
 bun run dev:buddy      # 启动宠物 CLI
+```
+
+## `bun` 安装（如有可跳过）
+ ```bash
+# macOS & Linux
+curl -fsSL https://bun.com/install | bash
+
+# Windows
+powershell -c "irm bun.sh/install.ps1|iex"
+
+# Package Managers
+npm install -g bun
 ```
 # 宠物功能
 ```bash
