@@ -2,7 +2,8 @@
 
 ```bash
 bun install       # 安装依赖（需要 Bun ≥ 1.3.5、Node.js ≥ 24）
-bun run dev:buddy      # 启动 CLI
+bun run dev       # 启用CLI
+bun run dev:buddy      # 启动宠物 CLI
 ```
 # 宠物功能
 ```bash
